@@ -33,10 +33,10 @@ cd your-repo-name
 ## Create and Activate the Environment:
 python3 -m venv venv
 
-## If using Mac or Linux: ##
+- If using Mac or Linux use:
 source venv/bin/activate     
 
-## If using Windows: ##
+- If using Windows use:
 venv\Scripts\activate       
 
 ## Install Dependencies
