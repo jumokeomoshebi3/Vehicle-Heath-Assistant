@@ -28,7 +28,7 @@ This app uses:
 
 ## How To Clone Project:
 git clone https://github.com/your-username/Vehicle-Health_Assistant.git
-cd your-repo-name
+cd Vehicle-Health-Assistant
 
 ## Create and Activate the Environment:
 python3 -m venv venv
