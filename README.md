@@ -27,33 +27,37 @@ This app uses:
 | Mileage (mi) | Used to determine maintenance expectations |
 
 ## How To Clone Project:
+```bash
 git clone https://github.com/your-username/Vehicle-Health_Assistant.git
 
 cd Vehicle-Health-Assistant
-
+```
 ## Create and Activate the Environment:
+```bash
 python3 -m venv venv
-
+```
 - If using Mac or Linux use:
-
+```bash
 source venv/bin/activate     
-
+```
 - If using Windows use:
-
+```bash
 venv\Scripts\activate       
+```
 
 ## Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ## Ensure the Model Exists
+```bash
 python train_model.py
-
+```
 ## Run the Web Application 
+```bash
 streamlit run app.py
-
+```
 The app will open in your brownwer automatically. However, if it doesnt work.. visit:
 http://localhost:8501
 
 
-```bash
-python train_model.py
